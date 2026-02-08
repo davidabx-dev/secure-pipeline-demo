@@ -1,6 +1,5 @@
 # Usa uma imagem base leve do Python (Linux Alpine ou Slim)
-FROM python:3.9-slim
-
+FROM python:3.12-slim
 # Define a pasta de trabalho dentro do container (como se fosse um 'cd /app')
 WORKDIR /app
 
